@@ -22,4 +22,5 @@ Note: The generated password is for demonstration purposes only. It is recommend
 <li>JavaScript</li></ul>
 
 ### Preview
+![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/443e842d-d2c6-4076-965a-1ae734e0a438)
 Feel free to use this Advanced Password Generator to create secure and randomized passwords for your accounts.
