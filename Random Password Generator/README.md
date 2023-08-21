@@ -1,4 +1,4 @@
-# Advanced Password Generator
+# Random Password Generator
 This is a simple web-based application that generates random passwords with advanced options. It allows you to customize the password length and choose from different criteria, such as alphabets, numbers, and symbols.
 
 ## Features
