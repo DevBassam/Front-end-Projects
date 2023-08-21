@@ -6,6 +6,7 @@ This is a simple web-based application that generates random passwords with adva
 <li>Customizable password length between 8 and 20 characters</li>
 <li>Criteria options: alphabets, numbers, and symbols</li>
 <li>User-friendly interface with clear instructions</li></ul>
+
 ## How to Use
 <ol><li>Open the Advanced Password Generator in your web browser.</li>
 <li>Specify the desired password length by entering a number between 8 and 20 in the "Password Length" input field.</li>
