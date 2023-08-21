@@ -17,6 +17,7 @@ This project is a simple calculator web application built using HTML, CSS, and J
 <li>CSS: Styling and layout of the calculator elements.</li>
 <li>JavaScript: Handling user interactions and performing calculations.</li>
 </ul>
+
 ## Usage
 To use the calculator, simply open the index.html file in a web browser.
 The calculator interface will be displayed, allowing you to enter and evaluate mathematical expressions.
