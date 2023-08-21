@@ -23,4 +23,6 @@ Note: The generated password is for demonstration purposes only. It is recommend
 
 ### Preview
 ![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/443e842d-d2c6-4076-965a-1ae734e0a438)
+![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/8c38742f-6970-41df-8e31-25d3361960d7)
+
 Feel free to use this Advanced Password Generator to create secure and randomized passwords for your accounts.
