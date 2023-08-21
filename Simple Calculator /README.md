@@ -13,7 +13,7 @@ This project is a simple calculator web application built using HTML, CSS, and J
 
 ## Technologies Used
 <ul>
-<li></li>HTML: The structure and markup of the calculator.</li>
+<li>HTML: The structure and markup of the calculator.</li>
 <li>CSS: Styling and layout of the calculator elements.</li>
 <li>JavaScript: Handling user interactions and performing calculations.</li>
 </ul>
@@ -23,9 +23,8 @@ The calculator interface will be displayed, allowing you to enter and evaluate m
 Buttons represent numbers, operators, and special functions. The result will be displayed in the text area.
 
 ## Preview
-![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/d1bdc8df-efbf-4293-b294-db98ac14ed6d)
-![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/6c5b1c54-5f07-42e0-8fb3-2e47abd6f9b1)
+![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/d1bdc8df-efbf-4293-b294-db98ac14ed6d)![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/6c5b1c54-5f07-42e0-8fb3-2e47abd6f9b1)
 
 
-This project was created by <a href="www.linkedin.com/in/bassam-gameel-blax404">Bassam Salama</a>. Feel free to use and modify the code as needed.
+This project was created by Bassam Salama.Feel free to use and modify the code as needed.
 
