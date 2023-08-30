@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currency Converter">
+    <meta name="author" content="Bassam Salama">
+    <meta property="og:title" content="Simple Currency Converter">
+    <meta property="og:site_name" content="Currency Converter">
+    <meta property="og:type"  content="website">
+    <meta property="og:description" content="Simple Currency Converter">
+    <meta property="og:image" content="./imgs/black logo.png">
+    <meta property="og:locale" content="en_US">
+    <title>Simple Currency Converter</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="./imgs/black-logo.png" alt="logo">
+      <h1 id="title">Currency Converter</h1>
+      <nav>
+        <div id="nav-div"></div>
+      </nav>
+    </header>
+    <main>
+      <section id="converter-layout">
+        <div class="form-floating resultScreen">
+          <textarea class="form-control resultScreen" readonly id="resultTxtArea"></textarea>
+          <label for="floatingTextarea2">Result</label>
+        </div>
+        <label for="convertFrom" id="from-label">Convert From</label>
+        <select class="form-select" aria-label="Default select example" id="convertFrom">
+          <option value="USD">USA Dollar</option>
+          <option value="RUB">Russian Rubel</option>
+          <option value="EGP">Egyption Pound</option>
+          <option value="EUR">Euro</option>
+          <option value="GBP">British Pound</option>
+          <option value="INR">Indian Rupee</option>
+          <option value="CNY">Chinese Yuan</option>
+          <option value="CHF">Swiss Franc</option>
+          <option value="JPY">Japanese Yen</option>
+          <option value="AUD">Australian Dollar</option>
+          <option value="CAD">Canadian Dollar</option>
+        </select>
+        <label for="convertInto" id="into-label">Convert Into</label>
+        <select class="form-select" aria-label="Default select example" id="convertInto">
+          <option value="USD">USA Dollar</option>
+          <option value="RUB">Russian Rubel</option>
+          <option value="EGP">Egyption Pound</option>
+          <option value="EUR">Euro</option>
+          <option value="GBP">British Pound</option>
+          <option value="INR">Indian Rupee</option>
+          <option value="CNY">Chinese Yuan</option>
+          <option value="CHF">Swiss Franc</option>
+          <option value="JPY">Japanese Yen</option>
+          <option value="AUD">Australian Dollar</option>
+          <option value="CAD">Canadian Dollar</option>
+        </select>
+        <label id="value-label">Value</label>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="currencySymbol">$</span>
+          <input type="number" max="10000000" min="1" class="form-control" id="inputValue" value="1" aria-label="Amount (to the nearest dollar)">
+        </div>
+        <button type="button" class="btn btn-danger" id="convertBtn">Convert</button>
+      </section>
+    </main>
+    <footer>
+
+      <ul>
+        <li><a href="https://www.facebook.com/Blax404/" target="_blank"><img class="icons" src="./imgs/facebook_icon.png" alt="facebook"></a></li>
+        <li><a href="https://www.linkedin.com/in/bassam-gameel-blax404" target="_blank"><img class="icons" src="./imgs/linkedin_icon.png" alt="linkedin"></a></li>
+        <li><a href="https://www.github.com/DevBassam" target="_blank"><img class="icons" src="./imgs/github_icon.png" alt="github"></a></li>
+      </ul>
+      <p id="note">Be careful: All these values are not real. So, do not depend on it.</p>
+      <p><em>Est. Aug 2023</em></p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+
+</html>
