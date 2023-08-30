@@ -14,11 +14,7 @@ Real-time conversion results displayed in the result screen
 <li>Click the "Convert" button.</li>
 <li>The converted value will be displayed in the result screen.</li>
 </ol>
-Author
-This project is created and maintained by Bassam Salama.
 
-## Dependencies
-Bootstrap CSS framework
 
 ## Snapshots
 ![Screenshot 1](https://github.com/DevBassam/Front-end-Projects/assets/84365449/a23d9810-c784-4e3a-beac-c9eaf19f9db9)
@@ -27,15 +23,12 @@ Bootstrap CSS framework
 
 
 ## Contact
-You can reach out to the author via the following channels:
+You can reach out to the author via the following Social Links:
 
 <ul>
 <li><a href="https://www.facebook.com/Blax404/">Facebook ↗</a></li>
 <li><a href="https://www.linkedin.com/in/bassam-gameel-blax404">LinkedIn ↗</a></li>
-<li><a href="https://www.github.com/DevBassam">GitHub ↗</a></li>
 </ul>
 
 ### Note
 Please note that the values displayed by this currency converter are for demonstration purposes only and should not be relied upon for actual financial transactions.
-
-#### Estimated Release Date: August 2023
