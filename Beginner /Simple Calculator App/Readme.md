@@ -24,7 +24,8 @@ The calculator interface will be displayed, allowing you to enter and evaluate m
 Buttons represent numbers, operators, and special functions. The result will be displayed in the text area.
 
 ## Preview
-![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/d1bdc8df-efbf-4293-b294-db98ac14ed6d)![image](https://github.com/DevBassam/Front-end-Projects/assets/84365449/6c5b1c54-5f07-42e0-8fb3-2e47abd6f9b1)
+![Screenshot 0](https://github.com/DevBassam/Front-end-Projects/assets/84365449/0420a22b-4f30-43cb-abb9-e0bf03b90de3)
+![Screenshot 1](https://github.com/DevBassam/Front-end-Projects/assets/84365449/a851aa9e-99b6-4e24-97f3-c87435b8fa96)
 
 
 This project was created by Bassam Salama.Feel free to use and modify the code as needed.
