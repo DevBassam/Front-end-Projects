@@ -1,4 +1,4 @@
-# Color Code Generator
+<h1>Color Code Generator</h1>
 
 ## Overview
 The Color Code Generator is a simple web application that allows users to generate random color codes. This project provides an easy way to explore and experiment with different color combinations for web design, graphic design, or any other creative purposes.
