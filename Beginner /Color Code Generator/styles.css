@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: papayawhip; 
+    margin: 0;
+}
+p{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+span{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    padding: 8px 45px 8px 45px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    border: 0.5px solid;
+    border-radius: 7px;
+}
+div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    padding: 20px;
+    border: 1px solid rgb(81, 117, 202);
+    border-radius: 20px;
+    position: absolute;
+    top: 35%;
+    transform: translateX(165%);
+    background-color: wheat;
+}
