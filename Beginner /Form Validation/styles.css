@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(220, 248, 242);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.851);
+    padding: 0px;
+}
+header>img{
+    width: 3%;
+    height: 3%;
+    margin: 0;
+}
+#hidden-header-div{
+    margin: 0;
+}
+header>p{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: 0.5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+input{
+    border: 0px solid rgba(0, 0, 0, 0.381);
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    font-family: cursive;
+    padding: 3px;
+    margin: 3px;
+}
+input:valid{
+    border: 1px solid rgba(46, 235, 137, 0.995);
+}
+input:invalid{
+    border: 1px solid rgba(235, 62, 46, 0.995);
+}
+form{
+    text-align: left;
+    margin: auto;
+    margin-top: -25px;
+    padding: 10px;
+    
+}
+
+#full-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#full-name>div{
+    width: 50%;
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.459);
+    margin: 10px;
+}
+input[type="email"], input[type="password"], input[type="tel"]{
+    width: 97%;
+}
+#level-btns,#checkbox-btns{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+hr{
+    width: 50%;
+    border-color: rgba(42, 165, 163, 0.168);
+}
+#submit-div{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    width: 30%;
+    padding: 5px;
+    border: 1px solid rgb(61, 237, 120);
+    border-radius: 8px;
+    background-color: rgb(61, 237, 120);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(208, 245, 237);
+    align-items: center;
+    height: fit-content;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15%;
+    margin-top: -20px;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.771);
+    margin: 0;
+    padding: 0;
+}
+footer>p{
+    margin-top: -10px;
+    margin-bottom: 2px;
+}
+footer>label{
+    color: rgba(0, 0, 0, 0.847);
+}

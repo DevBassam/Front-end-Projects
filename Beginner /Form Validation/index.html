@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up Form</title>
+  <meta name="description" content="Sign up Form">
+  <meta name="author" content="Bassam Salama">
+  <meta property="og:title" content="Sign up Form">
+  <meta property="og:site_name" content="Sign up">
+  <meta property="og:type"  content="website">
+  <meta property="og:description" content="Sign up form to join our community">
+  <meta property="og:locale" content="en_US">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="white-logo.png" alt="logo">
+    <p>Sign Up</p>
+    <div id="hidden-header-div"></div>
+  </header>
+  <main>
+    <form action="" method="" id="signupForm">
+      <section id="full-name">
+        <div>
+          <label for="first_name">First Name</label><br>
+          <input type="text" id="first_name" pattern="^[A-Z]{1}[a-z]{2,10}$" required>
+        </div>
+        <div>
+          <label for="last_name">Last Name</label><br>
+          <input type="text" id="last_name" pattern="^[A-Z]{1}[a-z]{2,10}$" required>
+        </div>
+      </section>
+      <div>
+        <label for="user-email">Email</label><br>
+        <input type="email" name="email" id="user-email" pattern="^([a-z]+[a-z0-9]*){3,20}@[a-z]{2,5}(.[a-z]{2,5}){1,4}$" required>
+      </div>
+      <div>
+        <label for="user-tel">Egyption Phone Number</label><br>
+        <input type="tel" name="phone" id="user-tel" pattern="^(010|011|012|015|02)[0-9]{8}$" required>
+      </div>
+      <hr>
+      <div>
+        <label for="user-password">Password</label><br>
+        <input type="password" name="password" id="user-password" minlength="8" maxlength="25" required>
+      </div>
+      <div>
+        <label for="user-confirm-password">Confirm Password</label><br>
+        <input type="password" name="confirm-password" id="user-confirm-password" minlength="8" maxlength="25" required>
+      </div>
+      <hr>
+      <label for="level-btns" >Select Your Level</label>
+      <div id="level-btns">
+        <input type="radio" name="level" id="level-bignner" required>
+        <label for="level-bignner">Bignner</label><br>
+        <input type="radio" name="level" id="level-intermediate">
+        <label for="level-intermediate">Intermediate</label><br>
+        <input type="radio" name="level" id="level-expert">
+        <label for="level-expert">Expert</label>
+      </div>
+      <hr>
+      <div id="checkbox-btns">
+        <input type="checkbox" name="policy" id="policy-accept">
+        <label for="policy-accept">I read and accepted the privacy policy.</label><br>
+        <input type="checkbox" name="updates" id="send-updates" checked>
+        <label for="send-updates">Send offers and updates via email.</label><br>
+      </div>
+      <div id="submit-div">
+        <button type="submit" id="submit-btn">Submit</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <label for="links">Contact Us:</label>
+    <div id="links">
+      <p><a href="">Facebook</a></p>
+      <p><a href="">Linkedin</a></p>
+      <p><a href="">Github</a></p>
+    </div>
+    <p>Copyrights 2023 - 2024</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
