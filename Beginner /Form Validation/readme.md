@@ -24,3 +24,9 @@ The project is built using the following technologies:
 <li>CSS</li>
 <li>JavaScript</li>
 </ul>
+
+## Screenshots
+![Screenshot 0](https://github.com/DevBassam/Front-end-Projects/assets/84365449/92059e86-4793-42b8-aed0-87e481306001)
+![Screenshot 1](https://github.com/DevBassam/Front-end-Projects/assets/84365449/b25fc6d7-ab28-49b2-a503-ca0ed42de64f)
+![Screenshot 3](https://github.com/DevBassam/Front-end-Projects/assets/84365449/602d9617-237f-4f28-8fe2-49ed33691c93)
+
