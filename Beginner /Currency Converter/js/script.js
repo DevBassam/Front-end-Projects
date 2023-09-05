@@ -14,7 +14,7 @@ function showData(value){
 function convertCureency(from,into){
     let inputField = inputValue.value;
     let value = (from == into) ? inputField : inputField * toUSD[from] * fromUSD[into];
-    showData(`${inputField} ${from} = ${value.toFixed(3)} ${into}`);
+    showData(`${inputField} ${from} = ${Number(value).toFixed(3)} ${into}`);
 }
 
 convertBtn.addEventListener('click',()=>{
